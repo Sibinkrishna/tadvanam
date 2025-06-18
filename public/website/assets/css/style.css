@@ -22011,3 +22011,72 @@ button.accordion-button.collapsed.fw-bold {
 .auto-height.relative.donate {
     background-size: contain !important;
 }
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    flex-direction: column;
+    font-family: 'poppins', sans-serif;
+}
+.loader-content {
+    text-align: center;
+}
+.swamiji-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    animation: pulse 2s infinite ease-in-out;
+}
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.05);
+    }
+}
+.dot-loader {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dot-loader span {
+    width: 10px;
+    height: 10px;
+    background: #ff6f00;
+    border-radius: 50%;
+    animation: bounce 1.2s infinite ease-in-out;
+}
+.dot-loader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.dot-loader span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+@keyframes bounce {
+    0%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    
+    40% {
+        transform: translateY(-15px);
+    }
+}
+.loader-content p {
+    margin-top: 20px;
+    color: #354e33;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

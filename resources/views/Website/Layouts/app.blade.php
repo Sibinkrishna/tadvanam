@@ -6,9 +6,15 @@
     <link rel="icon" href="{{asset('website/assets/images/Logo.png')}}" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="what is tadvanam" name="description">
+    <meta content="@yield('title')" name="description">
     <meta content="" name="keywords">
     <meta content="" name="author">
+
+     <meta property="og:title" content="@yield('title')" />
+      <meta property="og:description" content="@yield('title')-Tadvanam" />
+      <meta property="og:image" content="{{asset('website/assets/images/Logo.png')}}" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Tadvanam" />
     <!-- CSS Files
         ================================================== -->
 
@@ -27,7 +33,14 @@
         <a href="#" id="back-to-top"></a>
 
         <!-- preloader begin -->
-        <div id="de-loader"></div>
+        <div class="loader-overlay" id="loader">
+    <div class="loader-content">
+      <img src="{{asset('website/assets/images/background/1095028_102-removebg-preview.png')}}" alt="Swamiji" class="swamiji-image" />
+      <div class="dot-loader">
+      </div>
+      <p>Loading... Tadvanam</p>
+    </div>
+  </div>
         <!-- preloader end -->
 
         <!-- header begin -->
@@ -69,7 +82,7 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
-                                    <a href="#">
+                                    <a href="{{route('home')}}">
                                         <img class="logo-main" src="{{asset('website/assets/images/Logo.png')}}" alt="">
                                         <img class="logo-scroll" src="{{asset('website/assets/images/Logo.png')}}" alt="">
                                         <img class="logo-mobile" src="{{asset('website/assets/images/Logo.png')}}" alt="">
@@ -274,7 +287,7 @@
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                    Copyright © 2025 Tadvanam. All rights reserved.
+                                    Copyright © 2025 Tadvanam. All rights reserved. Powered By<a href="https://tricetechnologies.in/" target="_blank" style="margin-left:5px"> Trice Technologies </a>
                                 </div>
                                 <ul class="menu-simple">
                                     <li><a href="#">Terms &amp; Conditions</a></li>
@@ -383,6 +396,18 @@
                 }
             });
         });
+    </script>
+    <script>
+        window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+  const content = document.querySelector(".main-content");
+
+  setTimeout(() => {
+    loader.style.display = "none";
+    content.style.display = "block";
+  }, 2500); // Change duration if needed
+});
+
     </script>
 </body>
 

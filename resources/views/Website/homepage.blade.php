@@ -3,7 +3,7 @@
 @section('content')
 
             <section class="jarallax relative v-center">
-                <img src="{{asset('website/assets/images/background/Banner-001.webp')}}" class="jarallax-img" alt="">
+                <img src="{{asset('website/assets/images/background/Banner-0001.jpg')}}" class="jarallax-img" alt="">
                 <div class="container z-2">
                     <div class="row">
                         <div class="col-lg-7">
@@ -20,25 +20,25 @@
                                             <div class="col-md-6 wow fadeInLeft animate__animated animate__fadeInLeft moving-quotes" data-wow-delay=".1s">
                                                 <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
                                                     <h6 class="text-center"><b>Kenopanishad</b></h6>
-                                                    <p style="font-size: 12px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“That Brahman is called Tadvana, the Adorable of all; It should be worshipped by the name of Tadvana. All beings love Him who knows Brahman as such.” <span class="text-muted">(Chapter 4, Verse 6)</span></p>
+                                                    <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“That Brahman is called Tadvana, the Adorable of all; It should be worshipped by the name of Tadvana. All beings love Him who knows Brahman as such.” <span class="text-muted">(Chapter 4, Verse 6)</span></p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4 wow fadeInUp animate__animated animate__fadeInUp moving-quotes-1" data-wow-delay=".2s">
                                                 <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
                                                     <h6 class="text-center"><b>Yogavasishta:</b></h6>
-                                                    <p style="font-size: 12px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“Deergha Swapnam Imam Vidheem”</p>
+                                                    <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“Deergha Swapnam Imam Vidheem”</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4 wow fadeInRight animate__animated animate__fadeInRight moving-quotes-2" data-wow-delay=".3s">
                                                 <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
                                                     <h6 class="text-center"><b>Sri Ramana Maharshi</b></h6>
-                                                    <p style="font-size: 12px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“God, guru, and the Self are the same”</p>
+                                                    <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“God, guru, and the Self are the same”</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 wow fadeInDown animate__animated animate__fadeInDown moving-quotes-3" data-wow-delay=".4s">
                                                 <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
                                                     <h6 class="text-center"><b>Sri Ramakrishna Paramahamsa:</b></h6>
-                                                    <p style="font-size: 12px;padding: 0px !important;margin-bottom: 0px !important;position: relative; z-index: 10;text-align: center;"> “Bhagawan, Bhagavata and Bhakta are same”</p>
+                                                    <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;position: relative; z-index: 10;text-align: center;"> “Bhagawan, Bhagavata and Bhakta are same”</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
                             <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
                                 <img src="{{asset('website/assets/images/icons/icon-1.webp')}}" class="w-50px mb-3" alt="">
-                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;">01</div>
+                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
                                     <h4 style="color:#344535;">Worship & Contemplation</h4>
                                     <p class="mb-0" style="color:#344535;">A serene space for inner worship and spiritual focus</p>
@@ -68,7 +68,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
                             <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
                                 <img src="{{asset('website/assets/images/icons/icon 2.webp')}}" class="w-50px mb-3" alt="">
-                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;">02</div>
+                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
                                     <h4 style="color:#344535;">Retreat & Practice</h4>
                                     <p class="mb-0" style="color:#344535;">Meditation, yoga, and satsangs in a monastic setting.
@@ -80,7 +80,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
                             <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
                                 <img src="{{asset('website/assets/images/icons/icon 3.webp')}}" class="w-50px mb-3" alt="">
-                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;">03</div>
+                                <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
                                     <h4 style="color:#344535;">Service & Outreach</h4>
                                     <p class="mb-0" style="color:#344535;">Selfless service rooted in spiritual transformation.
@@ -168,49 +168,82 @@
                                 <span class="id-color-2" style="color:#bd840a;">Let's All Participate</span></h3>
                         </div>
                     </div>
-                    <div class="row g-4  mt-3">
-                        @foreach ($upcomingPrograms->sortByDesc('created_at')->take(3) as $upcoming )
-                        <div class="col-lg-4">
-                            <div class="hover rounded-1 overflow-hidden relative text-light wow fadeInRight" data-wow-delay=".3s">
-                                <a href="{{ route('programsDetail',$upcoming->slug) }}" class="abs w-100 h-100 z-5"></a>
-                                <div style="width:100%;height:270px;overflow:hidden;">
-                                    <img src="{{ $upcoming->featured_image ? asset('storage/' . $upcoming->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }}" alt="" style="width:100%;height:100%;object-fit:cover;">
-                                </div>
-                                <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                    <div class="mb-3">{{ \Illuminate\Support\Str::limit(strip_tags($upcoming->description), 200) }}</div>
-                                </div>
-                                <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                <div class="abs z-2 bottom-0 w-100 hover-op-0">
-                                    <div class="mobile-event-box bg-blur d-flex m-4 p-1 px-4 rounded-1 justify-content-between align-items-center">
-                                        <div class="mobile-event d-flex">
-                                            <div class="me-5">
-                                                Event Name
-                                                <h6>{{ \Illuminate\Support\Str::limit(strip_tags($upcoming->title), 20) }}</h6>
-                                            </div>
-                                            <div>
-                                                Location
-                                                <h6>{{ $upcoming->location }}</h6>
-                                            </div>
+                    <div class="row g-4">
+                        @foreach($programs->sortByDesc('created_at')->take(4) as $program)
+                        <div class="col-lg-6">
+                            <div class="rounded-1 bg-light overflow-hidden">
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="auto-height relative" data-bgimage="url({{ $program->featured_image ? asset('storage/' . $program->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }})">
                                         </div>
+                                    </div>
+                                    <div class="col-sm-6 relative">
+                                        <div class="p-30 pb-60">
+                                            <h4><a class="text-dark" href="blog-single.html">{{ \Illuminate\Support\Str::limit(strip_tags($program->title), 20) }}</a></h4>
+                                            <p class="mb-0">{{ \Illuminate\Support\Str::limit(strip_tags($program->description), 200) }}</p>
 
-                                        <div class="w-40px">
-                                            <img src="{{asset('website/assets/images/misc/right-arrow.webp')}}" class="w-100" alt="">
+                                            <div class="abs bottom-0 pb-20">
+                                                <a href="{{ route('programsDetail',$program->slug) }}" clas="btn-1 btn-main">Read More</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="gradient-trans-color-bottom-1 abs w-100 h-40 bottom-0"></div>
                             </div>
                         </div>
                         @endforeach
-
-
-                        <div class="spacer-20"></div>
-
-                        <div class="col-lg-12 text-center">
-                            <a class="btn-main wow fadeInUp" href="{{ route('programs') }}">View All Events</a>
+                        <!-- pagination begin -->
+                        <div class="col-lg-12 pt-4 text-center">
+                            <div class="d-inline-block">
+                                <nav aria-label="Page navigation example">
+                                    <a href="{{ route('programs') }}" class="btn-1 btn-main"> View All Events</a>
+                                </nav>
+                            </div>
                         </div>
-
+                        <!-- pagination end -->
                     </div>
+                    <!--<div class="row g-4  mt-3">-->
+                    <!--    @foreach ($upcomingPrograms->sortByDesc('created_at')->take(3) as $upcoming )-->
+                    <!--    <div class="col-lg-4">-->
+                    <!--        <div class="hover rounded-1 overflow-hidden relative text-light wow fadeInRight" data-wow-delay=".3s">-->
+                    <!--            <a href="{{ route('programsDetail',$upcoming->slug) }}" class="abs w-100 h-100 z-5"></a>-->
+                    <!--            <div style="width:100%;height:270px;overflow:hidden;">-->
+                    <!--                <img src="{{ $upcoming->featured_image ? asset('storage/' . $upcoming->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }}" alt="" style="width:100%;height:100%;object-fit:cover;">-->
+                    <!--            </div>-->
+                    <!--            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">-->
+                    <!--                <div class="mb-3">{{ \Illuminate\Support\Str::limit(strip_tags($upcoming->description), 200) }}</div>-->
+                    <!--            </div>-->
+                    <!--            <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>-->
+                    <!--            <div class="abs z-2 bottom-0 w-100 hover-op-0">-->
+                    <!--                <div class="mobile-event-box bg-blur d-flex m-4 p-1 px-4 rounded-1 justify-content-between align-items-center">-->
+                    <!--                    <div class="mobile-event d-flex">-->
+                    <!--                        <div class="me-5">-->
+                    <!--                            Event Name-->
+                    <!--                            <h6>{{ \Illuminate\Support\Str::limit(strip_tags($upcoming->title), 20) }}</h6>-->
+                    <!--                        </div>-->
+                    <!--                        <div>-->
+                    <!--                            Location-->
+                    <!--                            <h6>{{ $upcoming->location }}</h6>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <!--                    <div class="w-40px">-->
+                    <!--                        <img src="{{asset('website/assets/images/misc/right-arrow.webp')}}" class="w-100" alt="">-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--            <div class="gradient-trans-color-bottom-1 abs w-100 h-40 bottom-0"></div>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--    @endforeach-->
+
+
+                    <!--    <div class="spacer-20"></div>-->
+
+                    <!--    <div class="col-lg-12 text-center">-->
+                    <!--        <a class="btn-main wow fadeInUp" href="{{ route('programs') }}">View All Events</a>-->
+                    <!--    </div>-->
+
+                    <!--</div>-->
                 </div>
             </section>
             <section class="relative" style="padding-top: 0 !important; background-color: #f1ffdd;">
@@ -258,66 +291,51 @@
                 <img src="{{asset('website/assets/images/misc/silhouette-forest-1.webp')}}" class="abs op-3 w-100 bottom-0" alt="" style="left:50%; transform: translateX(-50%);" />
 
             </section>
-            <section style="padding-top: 50px; padding-bottom: 50px;">
-                <div class="container">
-                    <div class="row g-4 align-items-center justify-content-center">
-                        <div class="col-lg-8 text-center">
-                            <div class="subtitle wow fadeInUp">Programs</div>
-                            <h3 class="text-uppercase mb-4 wow fadeInUp" data-wow-delay=".2s">Check Latest<span class="id-color-2" style="color:#bd840a;"> Blog Post</span></h3>
-                        </div>
-                    </div>
-                    <div class="row g-4">
-                        @foreach($programs as $program)
-                        <div class="col-lg-6">
-                            <div class="rounded-1 bg-light overflow-hidden">
-                                <div class="row g-2">
-                                    <div class="col-sm-6">
-                                        <div class="auto-height relative" data-bgimage="url({{ $program->featured_image ? asset('storage/' . $program->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }})">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 relative">
-                                        <div class="p-30 pb-60">
-                                            <h4><a class="text-dark" href="blog-single.html">{{ \Illuminate\Support\Str::limit(strip_tags($program->title), 20) }}</a></h4>
-                                            <p class="mb-0">{{ \Illuminate\Support\Str::limit(strip_tags($program->description), 200) }}</p>
+            <!--<section style="padding-top: 50px; padding-bottom: 50px;">-->
+            <!--    <div class="container">-->
+            <!--        <div class="row g-4 align-items-center justify-content-center">-->
+            <!--            <div class="col-lg-8 text-center">-->
+            <!--                <div class="subtitle wow fadeInUp">Programs</div>-->
+            <!--                <h3 class="text-uppercase mb-4 wow fadeInUp" data-wow-delay=".2s">Check Latest<span class="id-color-2" style="color:#bd840a;"> Programs</span></h3>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <div class="row g-4">-->
+            <!--            @foreach($programs->take(2) as $program)-->
+            <!--            <div class="col-lg-6">-->
+            <!--                <div class="rounded-1 bg-light overflow-hidden">-->
+            <!--                    <div class="row g-2">-->
+            <!--                        <div class="col-sm-6">-->
+            <!--                            <div class="auto-height relative" data-bgimage="url({{ $program->featured_image ? asset('storage/' . $program->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }})">-->
+            <!--                            </div>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-sm-6 relative">-->
+            <!--                            <div class="p-30 pb-60">-->
+            <!--                                <h4><a class="text-dark" href="blog-single.html">{{ \Illuminate\Support\Str::limit(strip_tags($program->title), 20) }}</a></h4>-->
+            <!--                                <p class="mb-0">{{ \Illuminate\Support\Str::limit(strip_tags($program->description), 200) }}</p>-->
 
-                                            <div class="abs bottom-0 pb-20">
-                                                <a href="{{ route('programsDetail',$program->slug) }}" clas="btn-1 btn-main">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
+            <!--                                <div class="abs bottom-0 pb-20">-->
+            <!--                                    <a href="{{ route('programsDetail',$program->slug) }}" clas="btn-1 btn-main">Read More</a>-->
+            <!--                                </div>-->
+            <!--                            </div>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--            @endforeach-->
                         <!-- pagination begin -->
-                        <div class="col-lg-12 pt-4 text-center">
-                            <div class="d-inline-block">
-                                <nav aria-label="Page navigation example">
-                                    <a href="{{ route('programs') }}" class="btn-1 btn-main"> View All</a>
-                                    {{-- <ul class="pagination">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Previous">
-                                                <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item active" aria-current="page"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Next">
-                                                <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul> --}}
-                                </nav>
-                            </div>
-                        </div>
+            <!--            <div class="col-lg-12 pt-4 text-center">-->
+            <!--                <div class="d-inline-block">-->
+            <!--                    <nav aria-label="Page navigation example">-->
+            <!--                        <a href="{{ route('programs') }}" class="btn-1 btn-main"> View All</a>-->
+            <!--                    </nav>-->
+            <!--                </div>-->
+            <!--            </div>-->
                         <!-- pagination end -->
-                    </div>
-                </div>
+            <!--        </div>-->
+            <!--    </div>-->
                 <!-- Section bottom silhouette image -->
-            </section>
-            <section class="jarallax" style="padding-top: 0px;background-color: #f1ffdd;">
+            <!--</section>-->
+            <section class="jarallax" style="padding-top: 0px;background-color: white;">
                 <div class="container relative z-2">
                     <div class="row justify-content-center">
                         <div class="row g-4 align-items-center justify-content-center">
