@@ -38,7 +38,7 @@
       <img src="{{asset('website/assets/images/background/1095028_102-removebg-preview.png')}}" alt="Swamiji" class="swamiji-image" />
       <div class="dot-loader">
       </div>
-      <p>Loading... Tadvanam</p>
+      <p>Tadvanam...</p>
     </div>
   </div>
         <!-- preloader end -->
@@ -49,7 +49,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="d-flex justify-content-between xs-hide">
+                            <div class="d-flex justify-content-between xs-hide ">
                                 <div class="d-flex">
                                     <div class="topbar-widget me-3"><a href="tel:94001 68316"><i class="icofont-phone"></i>+91 94001 68316</a> <a href="tel:85899 98585"  style="margin-top: 8px !important;"><i class="iicofont-phone"></i>+91 85899 98585</a></div>
                                     <div class="topbar-widget me-3"><a href="#"><i
@@ -61,12 +61,8 @@
                                 </div>
 
                                 <div class="d-flex">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                                        <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
-                                        <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
-                                        <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                    <div class="social-icons d-flex justify-content-center align-items-center" style="background-color:white;padding:10px 30px;">
+                                        <a href="#" class="btn-1 btn-main-1" data-bs-toggle="modal" data-bs-target="#enquiry-modal" title="Enquiry" style="color:black;text-transform:uppercase;">Join Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,6 +71,21 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+           <div id="topbar" class="d-block d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <!--<div class="topbar-widget"><a href="mailto:tadvanamashramam@gmail.com"><i class="icofont-envelope"></i> tadvanamashramam@gmail.com</a></div>-->
+                    <div class="social-icons d-flex justify-content-center align-items-center" style="background-color:#344535;padding:10px 30px;">
+                        <a href="#" class="btn-1 btn-main-1" data-bs-toggle="modal" data-bs-target="#enquiry-modal" title="Enquiry" style="color:white !important;text-transform:uppercase;">Join Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -126,15 +137,9 @@
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a href="#" class="btn-main" data-bs-toggle="modal" data-bs-target="#enquiry-modal" title="Enquiry">Join Us</a>
                                     <span id="menu-btn"></span>
                                 </div>
-
-                                <div id="btn-extra">
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
+                         </div>
                         </div>
                     </div>
                 </div>
