@@ -17,7 +17,7 @@
                 <div class="de-gradient-edge-top dark"></div>
                 <div class="de-overlay"></div>
             </section>
-            <section style="position: relative; background-color: #f1ffdd !important;">
+            <section class="main-bg" style="position: relative;">
                 <img src="{{asset('website/assets/images/background/depiction.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.15; pointer-events: none;">
 
                 <div class="container">
@@ -63,7 +63,7 @@
                 <div class="container">
                     <div class="row g-4">
                         <h2 class="text-uppercase mb-4 wow fadeInUp text-center" data-wow-delay=".2s">EXECUTIVE
-                            <span class="id-color-2" style="color:#bd840a;">COMMITTEE</span></h2>
+                            COMMITTEE</h2>
                         <p class="text-center mb-5 mt-0">The Executive Committee of Tadvanam Ashramam is a dedicated group of individuals
                             <!-- team begin -->
                             @foreach($governing_body as $member)

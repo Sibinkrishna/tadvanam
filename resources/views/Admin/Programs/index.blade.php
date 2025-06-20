@@ -36,7 +36,9 @@
                             {{ session('success') }}
                         </div>
                     @endif --}}
+                    @can('add customer')
                     <a href="{{ route('admin.programs.create') }}" class="btn btn-primary">Add Programs</a>
+                    @endcan
                 </div>
 
                 <div class="card-body custom-card-action p-0">
@@ -101,6 +103,7 @@
                                                 {{-- <a href="{{ route('admin.programs.show', $program->id) }}" class="avatar-text avatar-md">
                                                     <i class="feather-eye"></i>
                                                 </a> --}}
+
                                                 <a href="{{ route('admin.programs.edit',$program->id) }}" class="avatar-text avatar-md bg-soft-warning">
                                                     <i class="feather-edit"></i>
                                                 </a>

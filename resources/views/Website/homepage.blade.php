@@ -3,13 +3,13 @@
 @section('content')
 
             <section class="jarallax relative v-center">
-                <img src="{{asset('website/assets/images/background/Banner-0001.jpg')}}" class="jarallax-img" alt="">
+                <img src="{{asset('website/assets/images/background/Banner-00001.webp')}}" class="jarallax-img" alt="">
                 <div class="container z-2">
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="spacer-double d-lg-none d-sm-block"></div>
                             <div class="me-lg-3" style="margin-top: 50px;">
-                                <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s" style="background-color: #f1ffdd !important;">Four Pillars Of</div>
+                                <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Four Pillars Of</div>
                                 <h1 class="id-color-2 text-border animate-text" style="color:#344535 !important;">
                                     Tadvanam
                                 </h1>
@@ -17,26 +17,26 @@
 
                                     <div class="col-md-12">
                                         <div class="row g-3">
-                                            <div class="col-md-6 wow fadeInLeft animate__animated animate__fadeInLeft moving-quotes" data-wow-delay=".1s">
-                                                <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
+                                            <div class="col-md-12 wow fadeInLeft animate__animated animate__fadeInLeft moving-quotes" data-wow-delay=".1s">
+                                                <div class="banner-box p-3 rounded-5 main-bg">
                                                     <h6 class="text-center"><b>Kenopanishad</b></h6>
                                                     <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“That Brahman is called Tadvana, the Adorable of all; It should be worshipped by the name of Tadvana. All beings love Him who knows Brahman as such.” <span class="text-muted">(Chapter 4, Verse 6)</span></p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 wow fadeInUp animate__animated animate__fadeInUp moving-quotes-1" data-wow-delay=".2s">
-                                                <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
+                                            <div class="col-md-12 wow fadeInUp animate__animated animate__fadeInUp moving-quotes-1" data-wow-delay=".2s">
+                                                <div class="banner-box p-3 rounded-5 main-bg">
                                                     <h6 class="text-center"><b>Yogavasishta:</b></h6>
                                                     <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“Deergha Swapnam Imam Vidheem”</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 wow fadeInRight animate__animated animate__fadeInRight moving-quotes-2" data-wow-delay=".3s">
-                                                <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
+                                            <div class="col-md-12 wow fadeInRight animate__animated animate__fadeInRight moving-quotes-2" data-wow-delay=".3s">
+                                                <div class="banner-box p-3 rounded-5 main-bg">
                                                     <h6 class="text-center"><b>Sri Ramana Maharshi</b></h6>
                                                     <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;text-align: center;">“God, guru, and the Self are the same”</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 wow fadeInDown animate__animated animate__fadeInDown moving-quotes-3" data-wow-delay=".4s">
-                                                <div class="banner-box p-3 rounded-5" style="background-color: #f1ffdd !important;">
+                                            <div class="col-md-12 wow fadeInDown animate__animated animate__fadeInDown moving-quotes-3" data-wow-delay=".4s">
+                                                <div class="banner-box p-3 rounded-5 main-bg">
                                                     <h6 class="text-center"><b>Sri Ramakrishna Paramahamsa:</b></h6>
                                                     <p style="font-size: 14px;padding: 0px !important;margin-bottom: 0px !important;position: relative; z-index: 10;text-align: center;"> “Bhagawan, Bhagavata and Bhakta are same”</p>
                                                 </div>
@@ -55,7 +55,7 @@
                 <div class="container">
                     <div class="row g-4 mt-100">
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
-                            <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
+                            <div class="relative h-100 bg-color text-light padding30 rounded-1">
                                 <img src="{{asset('website/assets/images/icons/icon-1.webp')}}" class="w-50px mb-3" alt="">
                                 <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
-                            <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
+                            <div class="relative h-100 bg-color text-light padding30 rounded-1">
                                 <img src="{{asset('website/assets/images/icons/icon 2.webp')}}" class="w-50px mb-3" alt="">
                                 <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
-                            <div class="relative h-100 bg-color text-light padding30 rounded-1" style="background-color:#f1ffdd !important;">
+                            <div class="relative h-100 bg-color text-light padding30 rounded-1">
                                 <img src="{{asset('website/assets/images/icons/icon 3.webp')}}" class="w-50px mb-3" alt="">
                                 <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3" style="color:#344535;"></div>
                                 <div>
@@ -92,7 +92,7 @@
                 </div>
             </section>
 
-            <section class="no-top no-bottom overflow-hidden" style="background-color: #f1ffdd;">
+            <section class="no-top no-bottom overflow-hidden" style="background-color:#fffdcf !important;">
                 <div class="container-fluid position-relative half-fluid">
                     <div class="container">
                         <div class="row">
@@ -110,11 +110,11 @@
                                 <div class="spacer-double"></div>
                                 <div class="ps-lg-5">
                                     <div class="subtitle wow fadeInUp mb-3">TADVANAM</div>
-                                    <h3 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">A term meaning<span class="id-color-2" style="color:#bd840a;"> "Adorable" in Sanskrit</span>
+                                    <h3 class="text-uppercase wow fadeInUp" data-wow-delay=".2s" style="color:#344535 !important;">A term meaning<span class="id-color-2" style="color:#344535;"> "Adorable" in Sanskrit</span>
                                     </h3>
-                                    <p class="wow fadeInUp" style="text-align: justify;">Refers to a unique Vedic Brahmopasana rooted in the Kenopanishad of the Samaveda. The four Vedas extol the glory of Brahman using beautiful language and prescribe various Upasanas (spiritual practices) to attain it.
+                                    <p class="wow fadeInUp" style="text-align: justify; color:344535;">Refers to a unique Vedic Brahmopasana rooted in the Kenopanishad of the Samaveda. The four Vedas extol the glory of Brahman using beautiful language and prescribe various Upasanas (spiritual practices) to attain it.
                                         Bhagavan Krishna declares in the Bhagavad Gita, "Among the Vedas, I am the Samaveda." The Kenopanishad originates from the Talavakara Brahmana of the Samaveda.</p>
-                                    <p class="wow fadeInUp" style="text-align: justify;">In the Kenopanishad, the sixth mantra of the fourth chapter introduces the concept of Tadvanam. Here, Jagadamba Uma advises Indra to adopt this Brahmopasana. The story behind this mantra dates back to the Devasura war.
+                                    <p class="wow fadeInUp" style="text-align: justify; color:344535;">In the Kenopanishad, the sixth mantra of the fourth chapter introduces the concept of Tadvanam. Here, Jagadamba Uma advises Indra to adopt this Brahmopasana. The story behind this mantra dates back to the Devasura war.
                                         The devas, having grown overconfident and proud of their strength, attributed their victory solely to their own abilities, neglecting the invisible blessings of Brahman.</p>
                                     <div class="spacer-10"></div>
                                     <!-- <a  class="btn-main fx-slide wow fadeInUp" href="contact.html"><span>Get In Touch</span></a> -->
@@ -141,14 +141,14 @@
                         <div class="col-md-6 text-center">
                             <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">VIVEKANANDA DARSHANIKA SAMAJAM
                             </div>
-                            <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">Shaping Lives,<span class="id-color-2" style="color:#bd840a;"> Strengthening Society</span></h2>
+                            <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">Shaping Lives, Strengthening Society</h2>
                             <p class="wow fadeInUp text-justify" data-wow-delay=".6s" style="text-align: justify;">
                                 <b>Vivekananda Darshanika Samajam (VDS)</b> is a registered trust, based in Palakkad, Kerala primarily focusing on activities for youth empowerment and national integration. Since its inception in 2008, Vivekananda Darshanika
                                 Samajam has been actively engaged in various service and organizational activities, selflessly serving the community whenever the need arose.
                                 <br>Through these endeavors, VDS remains dedicated to embodying the principles of compassion, service, and selflessness inspired by ideals of Swami Vivekananda. While the Tadvanam Ashramam reflects the spiritual face of
                                 the organization.
                             </p>
-                            <a class="btn-main wow fadeInUp" href="#" data-wow-delay=".6s" style="background-color:#bd840a;">Read More</a>
+                            <a class="btn-main wow fadeInUp" href="#" data-wow-delay=".6s" style="background-color:#f1e952;color:#354e33">Read More</a>
                         </div>
 
                         <div class="col-md-3">
@@ -165,25 +165,25 @@
                         <div class="col-lg-8 text-center">
                             <div class="subtitle wow fadeInUp">Upcoming Events</div>
                             <h3 class="text-uppercase mb-4 wow fadeInUp" data-wow-delay=".2s">Our Events,
-                                <span class="id-color-2" style="color:#bd840a;">Let's All Participate</span></h3>
+                                <span class="id-color-2" style="color:#354e33;">Let's All Participate</span></h3>
                         </div>
                     </div>
                     <div class="row g-4">
                         @foreach($programs->sortByDesc('created_at')->take(4) as $program)
                         <div class="col-lg-6">
                             <div class="rounded-1 bg-light overflow-hidden">
-                                <div class="row g-2">
+                                <div class="row g-2" style="background-color: #354e33 !important">
                                     <div class="col-sm-6">
                                         <div class="auto-height relative" data-bgimage="url({{ $program->featured_image ? asset('storage/' . $program->featured_image) : asset('website/assets/images/background/program-placeholder.jpg') }})">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 relative">
                                         <div class="p-30 pb-60">
-                                            <h4><a class="text-dark" href="blog-single.html">{{ \Illuminate\Support\Str::limit(strip_tags($program->title), 20) }}</a></h4>
-                                            <p class="mb-0">{{ \Illuminate\Support\Str::limit(strip_tags($program->description), 200) }}</p>
+                                            <h4><a class="text-light" href="blog-single.html">{{ \Illuminate\Support\Str::limit(strip_tags($program->title), 20) }}</a></h4>
+                                            <p class="mb-0 text-light">{{ \Illuminate\Support\Str::limit(strip_tags($program->description), 200) }}</p>
 
                                             <div class="abs bottom-0 pb-20">
-                                                <a href="{{ route('programsDetail',$program->slug) }}" clas="btn-1 btn-main">Read More</a>
+                                                <a href="{{ route('programsDetail',$program->slug) }}" class="btn-yellow" style="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -246,15 +246,15 @@
                     <!--</div>-->
                 </div>
             </section>
-            <section class="relative" style="padding-top: 0 !important; background-color: #f1ffdd;">
+            <section class="main-bg relative" style="padding-top: 0 !important;">
                 <div class="container relative z-1">
                     <div class="row g-4 gx-5 align-items-center">
-                        <div class="col-lg-6 p-3" style="background-color:#ffffff; border-radius: 20px;">
+                        <div class="col-lg-6 p-3" style="background-color:#ffffff; border-radius: 20px; border:2px solid #f1e952; ">
                             <div class="subtitle  wow fadeInUp">History</div>
-                            <h2 class="text-uppercase mb-4 wow fadeInUp" data-wow-delay=".2s">Path of <span class="id-color-2" style="color:#bd840a;">monastic vision</span></h2>
+                            <h3 class="text-uppercase mb-4 wow fadeInUp" data-wow-delay=".2s" style="font-size: 45px">Path of <span class="id-color-2" style="color:#354e33;">monastic vision</span></h3>
                             <p class="wow fadeInUp">he history of Tadvanam originates from Vivekananda Darshanika Samajam (VDS), which began its journey in 2005 under the leadership of Sri Jayakumar Ramakrishnan...
                             </p>
-                            <a class="btn-main btn-line wow fadeInUp" href="{{ route('vivekananda') }}" data-wow-delay=".6s" style="background-color:#bd840a;">Read More</a>
+                            <a class="btn-yellow float-end   wow fadeInUp" href="{{ route('vivekananda') }}" data-wow-delay=".6s">Read More</a>
                         </div>
 
                         <div class="col-lg-6 p-3">
@@ -341,31 +341,31 @@
                         <div class="row g-4 align-items-center justify-content-center">
                             <div class="col-lg-8 text-center">
                                 <div class="subtitle wow fadeInUp">Our Testimonial</div>
-                                <h3 class="text-uppercase mb-2 wow fadeInUp" data-wow-delay=".2s">Voices of <span class="id-color-2" style="color:#bd840a;"> Transformation</span></h3>
+                                <h3 class="text-uppercase mb-2 wow fadeInUp" data-wow-delay=".2s">Voices of Transformation</h3>
                                 <span style="padding-bottom: 30px !important;">Heartfelt reflections from those touched by the spiritual guidance, selfless service, and inspiring presence of Tadvanam.</span>
                             </div>
                         </div>
-                        <div class="col-lg-12 text-center mt-3" style="background-color: #ebffce;padding: 20px; border-radius: 20px;">
+                        <div class="col-lg-12 text-center mt-3 main-bg" style="padding: 20px; border-radius: 20px;">
                             <div class="owl-single-dots owl-carousel owl-theme">
                                 <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-20">Being part of the retreat changed how I see myself and the world. It brought me closer to inner peace.</h3>
-                                    <div class="wow fadeInUp">Ananya R</div>
-                                    <div class="wow fadeInUp">Kochi</div>
+                                    <h3 class="mb-4 wow fadeInUp fs-20 text-green">Being part of the retreat changed how I see myself and the world. It brought me closer to inner peace.</h3>
+                                    <div class="wow fadeInUp text-green">Ananya R</div>
+                                    <div class="wow fadeInUp text-green">Kochi</div>
                                 </div>
 
                                 <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-20">The teachings at Tadvanam helped me rediscover purpose and direction in life</h3>
-                                    <div class="wow fadeInUp">Suresh M</div>
-                                    <div class="wow fadeInUp">Coimbatore</div>
+                                    <h3 class="mb-4 wow fadeInUp fs-20 text-green">The teachings at Tadvanam helped me rediscover purpose and direction in life</h3>
+                                    <div class="wow fadeInUp text-green">Suresh M</div>
+                                    <div class="wow fadeInUp text-white">Coimbatore</div>
                                 </div>
 
                                 <div class="item">
                                     <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
-                                    <h3 class="mb-4 wow fadeInUp fs-20">I came for spiritual knowledge, but left with a deeper love for service and simplicity</h3>
-                                    <div class="wow fadeInUp">Leela N</div>
-                                    <div class="wow fadeInUp">Palakkad</div>
+                                    <h3 class="mb-4 wow fadeInUp fs-20 text-green">I came for spiritual knowledge, but left with a deeper love for service and simplicity</h3>
+                                    <div class="wow fadeInUp text-green">Leela N</div>
+                                    <div class="wow fadeInUp text-green">Palakkad</div>
                                 </div>
                             </div>
                         </div>

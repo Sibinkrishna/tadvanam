@@ -18,9 +18,9 @@
                 <div class="de-gradient-edge-top dark"></div>
                 <div class="de-overlay"></div>
             </section>
-            <section class="relative" style="position: relative; background-color: #f1ffdd !important; padding-bottom: 150px;">
+            <section class="relative main-bg" style="position: relative; padding-bottom: 150px;">
                 <img src="{{asset('website/assets/images/misc/tadvanopasanaa.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.09; pointer-events: none;">
-                <h2 class="p-0 m-0 text-center"><span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="color:#e8a106; font-weight: 800;">Gallery</span></h2>
+                <h2 class="p-0 m-0 text-center"><span class="text-uppercase id-color-2 m-0 wow fadeInUp text-green" data-wow-delay=".2s" style="font-weight: 800;">Gallery</span></h2>
                 <div class="text-center">
                     <img src="{{asset('website/assets/images/misc/heading-divider.webp')}}" alt="" width="40%" class="wow fadeInUp" data-wow-delay=".2s" style="margin-top: 10px; margin-bottom: 20px;">
                 </div>

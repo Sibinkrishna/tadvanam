@@ -44,7 +44,7 @@
         <!-- preloader end -->
 
         <!-- header begin -->
-        <header class="header-light transparent" style="background-color: #fff !important;">
+        <header class="header-light transparent" style="background-color: #fffdcf !important;">
             <div id="topbar">
                 <div class="container">
                     <div class="row">
@@ -110,6 +110,7 @@
                                             <li><a class="menu-item" href="{{ route('tadvanam-about') }}">History</a></li>
                                             <li><a class="menu-item" href="{{ route('tadvanam-governing-body') }}">Governing Body</a></li>
                                             <li><a class="menu-item" href="{{ route('tadvanam-founder') }}">Our Founder</a></li>
+                                            <li><a class="menu-item" href="{{ route('center') }}">Our Centers</a></li>
                                         </ul>
                                     </li>
                                     <li><a class="menu-item" href="#">Tadvanam</a>
@@ -228,7 +229,7 @@
             <div class="container relative z-2">
                 <div class="row gx-5">
                     <div class="col-lg-3 col-sm-6">
-                        <div class="footer-image" style="background-color: rgb(241, 255, 221); padding: 20px; text-align: center; border-radius:20px">
+                        <div class="footer-image main-bg" style="padding: 20px; text-align: center; border-radius:20px">
                     <img src="{{asset('website/assets/images/Logo.png')}}" class="w-50" alt="Logo">
                 </div>
                         <div class="spacer-20"></div>
@@ -347,7 +348,6 @@
 
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>

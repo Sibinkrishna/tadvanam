@@ -1,5 +1,5 @@
 @extends('Website.Layouts.app')
-@section('title', 'Governing-body')
+@section('title', 'Founder')
 @section('content')
 <section id="subheader" class="relative jarallax text-light">
                 <img src="{{asset('website/assets/images/background/breadcrumb.webp')}}" class="jarallax-img" alt="">
@@ -18,7 +18,7 @@
                 <div class="de-gradient-edge-top dark"></div>
                 <div class="de-overlay"></div>
             </section>
-            <section style="position: relative; background-color: #f1ffdd !important;">
+            <section class="main-bg" style="position: relative;">
                 <img src="{{asset('website/assets/images/background/depiction.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.15; pointer-events: none;">
 
                 <div class="container">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </section>
-            <section style="position: relative; background-color: #f1ffdd !important;padding-top: 0 ;">
+            <section class="main-bg" style="position: relative;padding-top: 0 ;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 mt-3">

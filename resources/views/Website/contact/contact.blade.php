@@ -76,10 +76,10 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="rounded-1 bg-light overflow-hidden">
+                            <div class="rounded-1 main-bg overflow-hidden">
                                 <div class="row g-2">
                                     <div class="col-sm-3">
-                                        <div class="auto-height relative donate" style="background-image: url('{{asset('website/assets/images/misc/donate.png')}}'); background-size: contain!important; background-position: center; background-color: #e1ebe2; border-radius: 8px; min-height: 300px;"></div>
+                                        <div class="auto-height relative donate" style="background-image: url('{{asset('website/assets/images/misc/donate.png')}}'); background-size: contain!important; background-position: center; border-radius: 8px; min-height: 300px;"></div>
                                     </div>
                                     <div class="col-sm-9 relative">
                                         <div class="p-30">
@@ -115,10 +115,10 @@
 
                                 </div>
                             </div>
-                            <div class="rounded-1 bg-light overflow-hidden mt-5">
+                            <div class="rounded-1 main-bg overflow-hidden mt-5">
                                 <div class="row g-2">
                                     <div class="col-sm-6">
-                                        <div class="auto-height relative" style="background-image: url('{{asset('website/assets/images/misc/silhouette-person-meditating-tree.png')}}'); background-size: cover; background-position: center; background-color: #e1ebe2; border-radius: 8px; min-height: 300px;"></div>
+                                        <div class="auto-height relative" style="background-image: url('{{asset('website/assets/images/misc/silhouette-person-meditating-tree.png')}}'); background-size: cover; background-position: center; border-radius: 8px; min-height: 300px;"></div>
                                     </div>
                                     <div class="col-sm-6 relative">
                                         <div class="p-30">

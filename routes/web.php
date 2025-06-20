@@ -32,6 +32,7 @@ Route::get('events',[PageController::class,'programs'])->name('programs');
 Route::get('events/{slug}',[PageController::class,'programsDetail'])->name('programsDetail');
 Route::get('gallery',[PageController::class,'gallery'])->name('gallery');
 Route::get('contact',[PageController::class,'contact'])->name('contact');
+Route::get('center',[PageController::class,'center'])->name('center');
 
 Route::get('/programs/{id}', [PageController::class, 'programsByCategory'])->name('programs.byCategory');
 Route::post('/contact/send', [EnquiryController::class, 'sendEnquiry'])->name('contact.send');

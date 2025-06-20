@@ -17,7 +17,7 @@
                 <div class="de-gradient-edge-top dark"></div>
                 <div class="de-overlay"></div>
             </section>
-            <section style="position: relative; background-color: #f1ffdd !important; padding-bottom: 0px;">
+            <section class="main-bg" style="position: relative; !important; padding-bottom: 0px;">
                 <img src="{{asset('website/assets/images/misc/tadvanopasanaa.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.09; pointer-events: none;">
 
                 <div class="container">
@@ -25,7 +25,7 @@
                         <div class="col-lg-5 col-md-5 col-sm-12">
 
                             <h5 class="text-uppercase wow fadeInUp mb-0 p-0 text-center" data-wow-delay=".2s" style="margin-bottom: 0px !important;">What is</h5>
-                            <h2 class="p-0 m-0 text-center"><span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="color:#e8a106; font-weight: 800;">Tadvanopasana</span></h2>
+                            <h2 class="p-0 m-0 text-center"><span class="text-green text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="font-weight: 800;">Tadvanopasana</span></h2>
                             <img src="{{asset('website/assets/images/misc/heading-divider.webp')}}" alt="" width="100%" class="wow fadeInUp" data-wow-delay=".2s" style="margin-top: 10px; margin-bottom: 20px;">
                             <img src="{{asset('website/assets/images/misc/tadvanopasana-1.webp')}}" alt="" width="100%" class="wow fadeInUp" data-wow-delay=".2s">
                         </div>
@@ -69,7 +69,7 @@
                 </div>
 
             </section>
-            <section style="padding:30px 0px 50px 0px; background-color: #f1ffdd !important;">
+            <section class="main-bg" style="padding:30px 0px 50px 0px;">
                 <img src="{{asset('website/assets/images/misc/tadvanopasana-img-3.webp')}}" alt="Background" style="position: absolute; left: 0; top: 50%; transform: translateY(-40%); width: 100%; height: 100%; object-fit: contain; z-index: 0; opacity: 0.09; pointer-events: none;">
                 <div class="container">
                     <div class="row g-4">

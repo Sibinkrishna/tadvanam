@@ -17,7 +17,7 @@
     <div class="de-gradient-edge-top dark"></div>
     <div class="de-overlay"></div>
 </section>
-<section style="position: relative; background-color: #f1ffdd !important;">
+<section class="main-bg" style="position: relative; !important;">
     <img src="{{asset('website/assets/images/misc/depiction-yoga.webp')}}" alt="Background"
         style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.09; pointer-events: none;">
 
@@ -26,8 +26,8 @@
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <h5 class="text-uppercase mb-4 wow fadeInUp mb-0 p-0" data-wow-delay=".2s"
                     style="margin-bottom: 0px !important;">What is</h5>
-                <h1 class="p-0 m-0"><span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s"
-                        style="color:#e8a106; font-weight: 800;">Tadvanam</span></h1>
+                <h1 class="p-0 m-0"><span class="text-uppercase id-color-2 m-0 wow fadeInUp text-green" data-wow-delay=".2s"
+                        style=" font-weight: 800;">Tadvanam</span></h1>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12" style="border-left: 4px solid #e8a106; padding-left: 24px;">
                 <p class="wow fadeInUp" data-wow-delay=".2s" style="text-align: justify;">Tadvanam, a term meaning

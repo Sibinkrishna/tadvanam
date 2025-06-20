@@ -18,11 +18,11 @@
                 <div class="de-gradient-edge-top dark"></div>
                 <div class="de-overlay"></div>
             </section>
-            <section style="position: relative; background-color: #f1ffdd !important; padding-bottom: 150px;">
+            <section class="main-bg" style="position: relative; padding-bottom: 150px;">
                 <img src="{{asset('website/assets/images/misc/tadvanopasanaa.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.09; pointer-events: none;">
 
                 <div class="container">
-                    <h2 class="p-0 m-0 text-center"><span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="color:#e8a106; font-weight: 800;">Vivekananda Darshanika
+                    <h2 class="p-0 m-0 text-center"><span class="text-uppercase id-color-2 m-0 wow fadeInUp text-green" data-wow-delay=".2s" style="font-weight: 800;">Vivekananda Darshanika
                                 Samajam</span></h2>
                     <div class="text-center">
                         <img src="{{asset('website/assets/images/misc/heading-divider.webp')}}" alt="" width="40%" class="wow fadeInUp" data-wow-delay=".2s" style="margin-top: 10px; margin-bottom: 20px;">
@@ -34,7 +34,7 @@
                                     <img src="{{asset('website/assets/images/misc/swami-vivekananda.webp')}}" class="w-70 jarallax wow scaleIn" alt="">
                                 </div>
                                 <div class="rounded-1 bg-body w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn" data-wow-delay=".2s">
-                                    <img src="{{asset('website/assets/images/misc/vivekanandha-img-3.webp')}}" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
+                                    <img src="{{asset('website/assets/images/misc/vivekananda.webp')}}" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
                                 </div>
                             </div>
                             @foreach ($program_vivekanandas as $program)

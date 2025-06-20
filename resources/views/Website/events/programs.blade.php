@@ -18,18 +18,18 @@
                 <div class="de-overlay"></div>
             </section>
 
-            <section style="position: relative; background-color: #f1ffdd !important; padding-bottom: 150px">
+            <section class="main-bg" style="position: relative; padding-bottom: 150px">
     <img src="{{asset('website/assets/images/misc/tadvanopasanaa.webp')}}" alt="Background" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.09; pointer-events: none;">
 
     @if(empty($categoryName))
         <h2 class="p-0 m-0 text-center">
-            <span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="color:#e8a106; font-weight: 800">
+            <span class="text-uppercase id-color-2 m-0 wow fadeInUp text-green" data-wow-delay=".2s" style=" font-weight: 800">
                 Programs & Events
             </span>
         </h2>
     @else
         <h2 class="p-0 m-0 text-center">
-            <span class="text-uppercase id-color-2 m-0 wow fadeInUp" data-wow-delay=".2s" style="color:#e8a106; font-weight: 800">
+            <span class="text-uppercase id-color-2 m-0 wow fadeInUp text-green" data-wow-delay=".2s" style="font-weight: 800">
                 {{ $categoryName }}
             </span>
         </h2>
@@ -50,8 +50,8 @@
     <div class="col-lg-6 col-md-12 col-sm-12" style="margin: 0px; padding: 0px">
         <div class="row" style="background-color: #354e33; border-radius: 10px; margin: 10px !important; position: relative;">
             <!-- Badge -->
-            <span style="max-width: 100px;display: flex;justify-content: center;position: absolute; top: 15px; left: 15px; background: {{ \Carbon\Carbon::parse($program->date)->isFuture() ? '#e8a106' : '#ff4e4e' }}; color: #fff; font-weight: bold; padding: 5px 15px; border-radius: 20px; z-index: 2; font-size: 14px">
-                {{ \Carbon\Carbon::parse($program->date)->isFuture() ? 'Upcoming' : 'Past' }}
+            <span style="max-width: 100px;display: flex;justify-content: center;position: absolute; top: 15px; left: 15px; background: {{ \Carbon\Carbon::parse($program->date)->isFuture() ? '#e8c206' : '' }}; color: #354e33; font-weight: bold; padding: 5px 15px; border-radius: 20px; z-index: 2; font-size: 14px">
+                {{ \Carbon\Carbon::parse($program->date)->isFuture() ? 'Upcoming' : '' }}
             </span>
             <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0">
                 <div class="program-card" style="width: 100%; height: 400px; overflow: hidden; display: flex; align-items: center; justify-content: center">
@@ -64,12 +64,12 @@
                 <p>{!! \Illuminate\Support\Str::limit(strip_tags($program->description), 200) !!}</p>
                 <div class="dt d-flex justify-content-between">
                     @if($program->date)
-                    <p style="background-color: #e8a106; padding: 3px 10px; border-radius: 20px">
+                    <p style="background-color: #e8c206; padding: 3px 10px; border-radius: 20px">
                         {{ \Carbon\Carbon::parse($program->date)->format('d-m-Y') }}
                     </p>
                     @endif
                     @if($program->time)
-                    <p style="background-color: #e8a106; padding: 3px 10px; border-radius: 20px">
+                    <p style="background-color: #e8c206; padding: 3px 10px; border-radius: 20px">
                         {{ \Carbon\Carbon::parse($program->time)->format('h:i A') }}
                     </p>
                     @endif

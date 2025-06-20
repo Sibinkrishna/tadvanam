@@ -26,7 +26,7 @@
                             <img src="{{asset('website/assets/images/misc/black-tree-silhouette.webp')}}" alt="About Background" style="position: absolute; left: 50%;transform: translateX(-50%); bottom:0; width: 100%; height: 100%; z-index: 0; border-radius: 8px; opacity: 0.09;">
                             <div class="subtitle wow fadeInUp mb-3" style="position: relative; z-index: 1;">History</div>
                             <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s" style="position: relative; z-index: 1;">
-                                <span class="id-color-2" style="color:#f0aa00 ;">Tadvanam</span> The Soul of Our Mission
+                               Tadvanam The Soul of Our Mission
                             </h2>
                             <p class="wow fadeInUp" style="text-align: justify; position: relative; z-index: 1;">
                                 The history of Tadvanam originates from Vivekananda Darshanika Samajam (VDS), which began its journey in 2005 under the leadership of Sri Jayakumar Ramakrishnan, a young spiritual seeker inspired by the blessings of Sriman A.B. Shanmukhan of Vijnana Ramaneeyashramam
@@ -44,7 +44,7 @@
                                 <div class="col-sm-6">
                                     <div class="row g-4">
                                         <div class="col-lg-12">
-                                            <img src="{{asset('website/assets/images/misc/about-img-1.webp')}}" class="w-100 rounded-1 wow zoomIn" alt="">
+                                            <img src="{{asset('website/assets/images/misc/about-1.webp')}}" class="w-100 rounded-1 wow zoomIn" alt="">
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="rounded-1 relative bg-color-2 text-light p-4 logo-animate">
@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
-                                            <img src="{{asset('website/assets/images/misc/about-image-2.webp')}}" class="w-100 rounded-1 wow zoomIn" alt="">
+                                            <img src="{{asset('website/assets/images/misc/about-2.webp')}}" class="w-100 rounded-1 wow zoomIn" alt="">
                                         </div>
                                     </div>
                                 </div>

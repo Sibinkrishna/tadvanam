@@ -81,5 +81,8 @@ class PageController extends Controller
     public function tadvanopasana(){
         return view('Website.tadvanam.tadvanopasana');
     }
+    public function center(){
+        return view('Website.tadvanam-about.our-centers');
+    }
 
 }
